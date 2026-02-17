@@ -1,6 +1,6 @@
 public class LinearSearchAlgo {
     public static void main(String[] args) {
-        int[] arr = { 12, 34, 23, 45, 98 };
+        int[] arr = { 23, 12, 34, 45, 67, 78, 90, 36 };
         int target = 45;
         System.out.println(linearSearch(arr, target));
     }
