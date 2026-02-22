@@ -23,7 +23,7 @@ public class BubbleSortAlgorithm {
                     swapped = true;
                 }
             }
-            if (!swapped) {
+            if (!swapped) { // !false = true
                 break;
             }
         }
