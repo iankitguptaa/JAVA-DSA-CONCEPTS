@@ -1,4 +1,4 @@
-public class Recursion {
+public class Message {
     public static void main(String[] args) {
         // write a functio that prints hello world
         message();
