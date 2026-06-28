@@ -5,6 +5,7 @@ public class LinearSearchRecursion {
         System.out.println(LinearSearachInt(arr, 4, 0));
     }
 
+    // for true / false
     static boolean LinearSearach(int[] arr, int target, int index) {
         if (index == arr.length) {
             return false;
@@ -12,7 +13,7 @@ public class LinearSearchRecursion {
         return arr[index] == target || LinearSearach(arr, target, index + 1);
     }
 
-    // for integer
+    // for integer value
     static int LinearSearachInt(int[] arr, int target, int index) {
         if (index == arr.length) {
             return -1;
