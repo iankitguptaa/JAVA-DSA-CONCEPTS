@@ -1,7 +1,7 @@
 public class LinearSearchAlgo {
     public static void main(String[] args) {
-        int[] arr = { 23, 12, 34, 45, 67, 78, 90, 36 };
-        int target = 45;
+        int[] arr = { 2, 5, 1, 8, 9, 4 };
+        int target = 9;
         System.out.println(linearSearch(arr, target));
     }
 
@@ -18,5 +18,3 @@ public class LinearSearchAlgo {
         return -1;
     }
 }
-
-
