@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class BubbleSortAlgo {
     public static void main(String[] args) {
-        int[] arr = { 6, 2, 1, 9, 10, 23, 42, 98, 67 };
+        int[] arr = { 4, 1, 3, 9, 7 };
         bubbleSort(arr);
         System.out.println(Arrays.toString(arr));
     }
@@ -11,7 +11,7 @@ public class BubbleSortAlgo {
         boolean swapped;
         for (int i = 0; i < arr.length; i++) {
             swapped = false;
-            for (int j = 1; j < arr.length - 1; j++) {
+            for (int j = 1; j < arr.length - i; j++) {
                 if (arr[j] < arr[j - 1]) {
                     int temp = arr[j];
                     arr[j] = arr[j - 1];
